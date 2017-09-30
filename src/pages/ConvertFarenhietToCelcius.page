@@ -17,10 +17,11 @@
 	
 	<input id="farenhiet" type="text"/>
 	<button onclick="getConversion()"> Convert! </button>
-	
+									<apex:pageblocksection
 	<apex:pageBLock id="block">
 		<<apex:outputtext id="outputText">
 		</apex:outputtext>
 		
 	</apex:pageBLock>
+									</apex:pageblocksection>
 </apex:page>

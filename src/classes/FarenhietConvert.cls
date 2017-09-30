@@ -5,7 +5,7 @@ global with sharing class FarenhietConvert
     @RemoteAction
     global static Double farenhietToCelcius(Double dataInput)
      {
-        Double conversion = (dataInput - 32) * 0.5556;
+        Double conversion = (dataInput - 32) * 0.5556;alskdlaksjdlkj
         return conversion;
     }
 }
