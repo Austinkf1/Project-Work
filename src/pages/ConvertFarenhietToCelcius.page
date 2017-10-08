@@ -1,27 +1,6 @@
-<apex:page  controller="FarenhietConvert">
-	<script type="text/javascript">
-		function getConversion()
-		{
-			var dataInput = document.getElementById("farenhiet").value;
-			
-			Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.FarenhietConvert.farenhietToCelcius}'
-							,dataInput,
-							function(result, event)
-							{
-															
-							}
-						)
-		}
-	
-	</script>
-	
-	<input id="farenhiet" type="text"/>
-	<button onclick="getConversion()"> Convert! </button>
-									<apex:pageblocksection
-	<apex:pageBLock id="block">
-		<<apex:outputtext id="outputText">
-		</apex:outputtext>
-		
-	</apex:pageBLock>
-									</apex:pageblocksection>
+<apex:page >
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is your new Page
+<!-- End Default Content REMOVE THIS -->
 </apex:page>
